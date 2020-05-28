@@ -9,7 +9,7 @@ function salvar() {
         show.innerHTML = txt.value
     var adicionar = documento.push(arq)
     } 
-    function mostrar() {
+    function mostrar() {//nao esta funcionando
         var esc = window.prompt('Qual arquivo voce quer ver')
         var area = document.querySelector('div.arquivos')
         area.innerHTML = esc.value
