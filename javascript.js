@@ -7,7 +7,7 @@ function salvar() {
     if (comfirmacao === true){
         var show = document.querySelector('div.arquivos')
         show.innerHTML = txt.value
-    var adicionar = documento.push(arq)
+    var adicionar = document.push(arq)
     } 
     function mostrar() {
         var esc = window.prompt('Qual arquivo voce quer ver')
